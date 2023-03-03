@@ -15,7 +15,7 @@ navbar:
     href: https://github.com/adyprat/PCF_Alzheimers
 output:
   workflowr::wflow_html:
-    toc: yes
-    toc_float: yes
-    theme: cosmo
+    toc: True
+    toc_float: True
+    theme: simplex
     highlight: textmate
