@@ -1,7 +1,7 @@
-name: "PCF_Alzheimers"
+name: PCF_Alzheimers
 output_dir: ../docs
 navbar:
-  title: "PCF_Alzheimers"
+  title: PCF_Alzheimers
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/adyprat/PCF_Alzheimers
 output:
   workflowr::wflow_html:
     toc: yes
